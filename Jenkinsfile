@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Batch') {
       steps {
-        bat(script: 'bat "D:\\\\JenkinsWorks\\\\test.bat"', returnStatus: true)
+        bat(script: 'bat "C:\\\\Users\\\\Prakash.JHa04\\\\.jenkins\\\\workspace\\\\FirstPipeline\\\\test.bat"', returnStatus: true)
       }
     }
 
